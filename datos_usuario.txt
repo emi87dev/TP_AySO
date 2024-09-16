@@ -1,1 +1,2 @@
 “Usuario=vagrant”
+model name	: AMD A8-6410 APU with AMD Radeon R5 Graphics
