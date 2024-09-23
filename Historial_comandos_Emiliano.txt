@@ -1,0 +1,203 @@
+pwd
+ll
+ls -l
+ls -l /home/vagrant/repogit
+pwd
+ls -l
+ls -l /home/vagrant/repogit
+ls -l repogit
+ls -l repogit/UTN-FRA_SO_onBording/
+ls -l
+ls -l /home/vagrant/repogit
+ls -l repogit
+ls -l repogit/UTN-FRA_SO_onBording/
+ls -l ../
+pwd
+ls -l
+pwd
+cd repogit/
+pwd
+cd
+pwd
+cd repogit/
+pwd
+cd
+pwd
+echo $HOME
+ls -l /boot/
+ls -l
+cd repogit
+ll
+alias
+alias saludo="echo $(whoami)"
+saludo
+whoami
+echo hola
+alias saludo="echo hola $(whoami)"
+saludo
+alias
+ll
+ls -la ../
+ls -la $HOME
+ls -la /home/vagrant
+ls -la /home/vagrant/.ssh/
+ls -l /home/vagrant/.ssh/
+ssh
+ls -la /home/vagrant/.ssh/
+ssh-keygen --help
+ssh-keygen -t ed25519
+ls -la /home/vagrant/.ssh/
+cat /home/vagrant/.ssh/id_ed25519.pub 
+ll
+git clone git@github.com:emi87dev/TP_AySO.git
+ll
+cd TP_AySO/
+git status
+touch un_archivo
+ll
+git status
+git add .
+git status
+git commit -m "add: primer commit"
+git config --global user.email "emi_d@hotmail.com.ar"
+git config --global user.name "emi87dev"
+git commit -m "add: primer commit"
+git status
+git push
+cd
+pwd
+man man
+pws
+pwd
+history
+pwd
+ll
+cd repogit/
+ll
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release 
+grep -i home_url /etc/os-release 
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+echo
+ls -l
+git add .
+git status
+git commit -m "add: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+grep -i "model name" /proc/cpuinfo
+grep -i "model name" /proc/cpuinfo |head -n1
+grep -i "model name" /proc/cpuinfo |head -n1 >> datos_usuario.txt
+git status
+git add .
+git status
+git commit -m “feat: Añadiendo información de CPU”
+git commit -m “feat: Añadiendo información de CPU sobre datos_usuario.txt”
+git status
+git commit -m “feat: Añadiendo información de CPU”
+git status
+ls -l
+cd repogit
+ls -l
+git s
+ls -l
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git status
+touch lista_ordenada
+ls -l
+/etc/passwd
+cd
+pwd
+/etc/passwd
+cat /etc/passwd
+man grep
+pwd
+ls -l
+cd repogit/
+ls -l
+cd TP_AySO/
+ls -l
+man grep
+grep -v "no login" /etc/passwd |head -n10
+grep -v "no login" /etc/passwd
+grep -v "nologin" /etc/passwd
+cat lista_ordenada
+ls -l
+grep -v "nologin" /etc/passwd |sort -k 7
+grep -v "nologin" |sort -k 7 /etc/passwd
+pwd
+grep -v "nologin" /etc/passwd |head -n10
+grep -v "nologin" /etc/passwd |head -n10 |sort -k 7 lista_ordenada
+cat lista_ordenada 
+grep lista_ordenada
+grep -v "nologin" /etc/passwd |head -n10 |sort -k 7 >> lista_ordenada
+cat lista_ordenada
+git status
+git add .
+git status
+git commit -m "ADD: Listado de usuarios ordenada"
+grep dump traffic
+grep "dump traffic"
+cat /etc
+grep /etc
+grep "network" /etc
+man man
+man 
+cat /bin
+cd /bin
+cat
+cd bin
+cd
+tcpdump
+cd repogit
+cd TP_AySO/
+cat /bin
+tcpdump
+ls -l
+history 
+man -k "dump traffic"
+ls -l
+cat
+ls -l
+cd TP_AySO/
+ls -l
+touch comando_dump_net.txt
+ls -l
+cat datos_usuario.txt 
+man -k "dump traffic" >> comando_dump_net.txt
+cat comando_dump_net.txt 
+echo "La busqueda del comando se realizó con el comando man -k "dump traffic"" > comando_dump_net.txt
+cat comando_dump_net.txt 
+man -k "dump traffic" >> comando_dump_net.txt
+cat comando_dump_net.txt 
+git status
+git add .
+git status
+git commit -m "ADD: Comando para capturar y analizar el tráfico de red"
+git status
+cat << FIN > README.md
+Alumno: <Emiliano Edgar Díaz>
+División: <313>
+Turno: <Noche>
+FIN
+
+tail README.md 
+git status
+git add .
+git status
+git commit -m "docs: Datos Alumno"
+git status
+history -a
+$HOME/.bash_history
+cd
+ls -l |grep bash
+ls -la |grep bash
+cat .bash_history
+history -a
